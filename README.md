@@ -32,12 +32,22 @@ In this project, I launch an instance of PFSense to use as a firewall and router
 <br>
 
 ### Step 2
-  - Give the __Kali machine a static IP__ on the **same network as the PFSense** firewall
-  - Then make the PFSense instance the **default gateway for the Kali Machine**
+  - Make sure you have created a different private network to place your Ubuntu VM.
+  - Assign it a static IP. In this case its IP i92.168.57.150.
 
-<br> 
-  <img width="773" height="865" alt="Pfsense router over kali" src="https://github.com/user-attachments/assets/828d7c12-3c4b-43bd-8099-3ece78f05848" />
-<br>
+<p>
+<img width="763" height="547" alt="ubuntu machine on different subnet" src="https://github.com/user-attachments/assets/77472e11-d78a-4fc2-b2f4-7ca483aceb82" />
+</p>  
+
+
+### Step 3
+  - Make sure you have created a different private network to place your Ubuntu VM.
+  - Assign it a static IP. In this case its IP i92.168.57.150.
+
+<p>
+<img width="763" height="547" alt="ubuntu machine on different subnet" src="https://github.com/user-attachments/assets/77472e11-d78a-4fc2-b2f4-7ca483aceb82" />
+</p>  
+
 
 
 
