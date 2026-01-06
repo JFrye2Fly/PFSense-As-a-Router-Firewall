@@ -23,7 +23,7 @@ In this project, I launch an instance of PFSense to use as a firewall and router
 <br> 
  
 
-### Step 1 
+### Step 1 -- Assign Static IPs to Kali VM
   - Give the __Kali machine a static IP__ on the **same network as the PFSense** firewall
   - Then make the PFSense instance the **default gateway for the Kali Machine**
 
@@ -31,7 +31,7 @@ In this project, I launch an instance of PFSense to use as a firewall and router
  <img width="873" height="963" alt="image" src="https://github.com/user-attachments/assets/6e054333-0e9e-4fb3-bcc7-297d7e69ff1e" />
 <br>
 
-### Step 2
+### Step 2 -- Assign Static IP to Ubuntu VM
   - Make sure you have created a different private network to place your Ubuntu VM.
   - Assign it a static IP. In this case its IP i92.168.57.150.
 
@@ -40,7 +40,7 @@ In this project, I launch an instance of PFSense to use as a firewall and router
 </p>  
 
 
-### Step 3
+### Step 3 -- Ping Ubuntu Machine
   - From your Kali Machine (192.168.56.150) ping the Ubuntu machine (192.168.57.150)
   - Notice how traffic can successfully be sent to the Ubuntu machine even though it is on a different network.
   - **This is because our PFSense instance has internet access directly linked from our host computer so it send traffic outside of its own LAN.**
@@ -48,6 +48,30 @@ In this project, I launch an instance of PFSense to use as a firewall and router
 <p>
 <img width="616" height="337" alt="Kali can ping Ubuntu without firewall rules" src="https://github.com/user-attachments/assets/5291dbd3-a253-4cb0-9611-7e566066e600" />
 </p>  
+
+### Step 4 -- Add Firewall Rules to Block Traffic to Ubuntu Machine
+  - From the PFSense Web Portal I added a rule to block **ICMP** traffic **originating** from the network 192.168.56.0 **headed** to the network 192.168.57.0
+
+<p>
+<img width="1785" height="866" alt="PFSense blocks ICMP traffic from 192 168 56 0 to 192 168 57 0" src="https://github.com/user-attachments/assets/eb725b15-a494-4ec8-aba9-dc4e5e21df42" />
+</p>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
