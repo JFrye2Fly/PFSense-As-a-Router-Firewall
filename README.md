@@ -17,8 +17,8 @@ In this project, I launch an instance of PFSense to use as a firewall and router
 
 
 ### Step 1 (Not Pictured) 
-  - Place the Kali Machine on the same subnet as the PFSense firewall
-  - In this case they are both on the 192.168.56.0 network
+  - Give the Kali machine a static IP on the same network as the PFSense firewall
+  - Then make the PFSense instance the default gateway for the Kali Machine
 
 <img width="773" height="865" alt="Pfsense router over kali" src="https://github.com/user-attachments/assets/828d7c12-3c4b-43bd-8099-3ece78f05848" />
 
