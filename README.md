@@ -13,7 +13,9 @@ In this project, I launch an instance of PFSense to use as a firewall and router
 
 
 ## Birds Eye View
-<img width="1536" height="1024" alt="Network topology with pfSense firewall" src="https://github.com/user-attachments/assets/b3ce0126-b52c-4315-9d5d-e6a1f81976f2" />
+<br<
+  <img width="1536" height="1024" alt="Network topology with pfSense firewall" src="https://github.com/user-attachments/assets/b3ce0126-b52c-4315-9d5d-e6a1f81976f2" />
+<br>
 
 <hr> 
 
@@ -21,7 +23,9 @@ In this project, I launch an instance of PFSense to use as a firewall and router
   - Give the Kali machine a static IP on the same network as the PFSense firewall
   - Then make the PFSense instance the default gateway for the Kali Machine
 
-<img width="773" height="865" alt="Pfsense router over kali" src="https://github.com/user-attachments/assets/828d7c12-3c4b-43bd-8099-3ece78f05848" />
+<br> 
+  <img width="773" height="865" alt="Pfsense router over kali" src="https://github.com/user-attachments/assets/828d7c12-3c4b-43bd-8099-3ece78f05848" />
+<br>
 
 
 ## Conclusion
