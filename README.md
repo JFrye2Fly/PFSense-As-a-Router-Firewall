@@ -57,6 +57,15 @@ In this project, I launch an instance of PFSense to use as a firewall and router
 </p>  
 
 
+### Step 5 -- Try to Ping Ubuntu VM from Kali VM
+  - Traffic from the Kali VM can no longer reach the Ubunut VM because of the rule we added
+  - PFSense detects the rule matches the traffic sent from the 192.168.56.0/24 network and it bocks it
+    
+
+<p>
+<img width="916" height="129" alt="AFter firewall rule no traffic passes through" src="https://github.com/user-attachments/assets/0c454748-b3cd-4419-8342-3208318be304" />
+
+</p>  
 
 
 
