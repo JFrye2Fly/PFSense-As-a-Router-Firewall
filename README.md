@@ -16,13 +16,12 @@ In this project, I launch an instance of PFSense to use as a firewall and router
 <img width="1536" height="1024" alt="Network topology with pfSense firewall" src="https://github.com/user-attachments/assets/b3ce0126-b52c-4315-9d5d-e6a1f81976f2" />
 
 
-##### Step 1 (Not Pictured) 
+### Step 1 (Not Pictured) 
   - Place the Kali Machine on the same subnet as the PFSense firewall
   - In this case they are both on the 192.168.56.0 network
 
-<p>
-  <img width="773" height="865" alt="Pfsense router over kali" src="https://github.com/user-  attachments/assets/1af553c5-a8e4-4b4e-bda6-e53973d883f5" />
-</p>
+<img width="773" height="865" alt="Pfsense router over kali" src="https://github.com/user-attachments/assets/828d7c12-3c4b-43bd-8099-3ece78f05848" />
+
 
 ## Conclusion
 
