@@ -22,7 +22,7 @@ In this project, I launch an instance of PFSense to use as a firewall and router
 <br> 
 
 ### Step 1 
-  - Give the **Kali machine a static IP** on the **same network as the PFSense** firewall
+  - Give the __Kali machine a static IP__ on the **same network as the PFSense** firewall
   - Then make the PFSense instance the **default gateway for the Kali Machine**
 
 <br> 
