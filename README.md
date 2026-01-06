@@ -13,7 +13,7 @@ In this project, I launch an instance of PFSense to use as a firewall and router
 
 
 ## Birds Eye View
-<br<
+<br>
   <img width="1536" height="1024" alt="Network topology with pfSense firewall" src="https://github.com/user-attachments/assets/b3ce0126-b52c-4315-9d5d-e6a1f81976f2" />
 <br>
 
