@@ -43,7 +43,7 @@ In this project, I launch an instance of PFSense to use as a firewall and router
 ### Step 3 -- Ping Ubuntu Machine
   - From your Kali Machine (192.168.56.150) ping the Ubuntu machine (192.168.57.150)
   - Notice how traffic can successfully be sent to the Ubuntu machine even though it is on a different network.
-  - **This is because our PFSense instance has internet access directly linked from our host computer so it send traffic outside of its own LAN.**
+  - **This is because our PFSense instance has internet access directly linked from our host computer so it can send traffic outside of its own LAN.**
 
 <p>
 <img width="616" height="337" alt="Kali can ping Ubuntu without firewall rules" src="https://github.com/user-attachments/assets/5291dbd3-a253-4cb0-9611-7e566066e600" />
