@@ -29,6 +29,15 @@ In this project, I launch an instance of PFSense to use as a firewall and router
   <img width="773" height="865" alt="Pfsense router over kali" src="https://github.com/user-attachments/assets/828d7c12-3c4b-43bd-8099-3ece78f05848" />
 <br>
 
+### Step 2
+  - Give the __Kali machine a static IP__ on the **same network as the PFSense** firewall
+  - Then make the PFSense instance the **default gateway for the Kali Machine**
+
+<br> 
+  <img width="773" height="865" alt="Pfsense router over kali" src="https://github.com/user-attachments/assets/828d7c12-3c4b-43bd-8099-3ece78f05848" />
+<br>
+
+
 
 ## Conclusion
 
