@@ -18,10 +18,10 @@ In this project, I launch an instance of PFSense to use as a firewall and router
 <br>
 
 <br> 
+<br> 
 <hr> 
 <br> 
-<br> 
-<br> 
+ 
 
 ### Step 1 
   - Give the __Kali machine a static IP__ on the **same network as the PFSense** firewall
