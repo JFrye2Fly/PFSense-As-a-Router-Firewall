@@ -45,7 +45,7 @@ In this lab, I demonstrate two key concepts:
 ## Step 3 — Ping the Ubuntu VM from Kali
 
 - From the Kali VM (192.168.56.150), ping the Ubuntu VM (192.168.57.150).
-- Observe that traffic successfully reaches the Ubuntu VM even though it resides on a different subnet.
+- Observe that traffic successfully reaches the Ubuntu VM even though it resides on a different network.
 
 **Reason:**  
 pfSense is acting as a **router** and has connectivity to both networks, allowing it to forward traffic between them.
