@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this project, I deploy an instance of **pfSense** to act as both a **router** and a **firewall**.  
+In this project, I deploy an instance of **pfSense** to act as both a **+router** and a **+firewall**.  
 I host a **Kali Linux VM** and an **Ubuntu VM** on two separate internal networks to demonstrate routing and traffic control.
 
 **Kali VM:** 192.168.56.150/24  
